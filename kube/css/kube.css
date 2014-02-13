@@ -1393,7 +1393,7 @@ input.big {
 .nav-h ul li span,
 .nav-g ul li a,
 .nav-g ul li span {
-  display: block;
+  display: inline-block;
 }
 .nav-h ul li a,
 .nav-g ul li a {
@@ -2344,7 +2344,7 @@ audio {
   .nav-tabs ul,
   .nav-pills,
   .nav-pills ul {
-    float: none;
+    /*float: none;*/
   }
   .nav-h ul li,
   .nav-g ul li {

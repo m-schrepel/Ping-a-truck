@@ -33,6 +33,7 @@ function initialize() {
     zoom: 13,
     disableDefaultUI: true,
     zoomControl: true,
+    scrollwheel: false,
     styles:
   [ 
     {     featureType: "poi", 
