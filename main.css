@@ -8,7 +8,7 @@ html {
 #map-canvas {
 	height: 70vh;
 	width: 100%;
-	border: 2px solid slategray;
+	border: 2px solid #F56D18;
 }
 #map-canvas img {
 	max-width: none;
@@ -21,8 +21,9 @@ html {
 	padding: 20px;
 }
 .nav-g {
-	background-color: slategray;
+	background-color: #708090;
 	padding: 10px;
+	border-bottom: 3px solid #F56D18;
 }
 #site-name-nav {
 	color: white;
@@ -39,6 +40,7 @@ html {
 	text-align: center;
 	font-size: 1em;
 	transition: background-color 1s ease-out;
+	background-color: #F56D18;
 }
 #notify-label.active {
 	background-color: red;
