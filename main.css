@@ -36,6 +36,9 @@ html {
 	padding-top: 20px;
 
 }
+#notify-text{
+	padding: 5px;
+}
 #notify-label {
 	text-align: center;
 	font-size: 1em;
@@ -83,7 +86,11 @@ html {
 		#notify-window {
 			position: absolute;
 			right:5px;
-			top:260px;
+			top:115px;
+		}
+		#site-name-nav {
+			font-size: 1em;
+			line-height: 5.5em;
 		}
 	
 }
