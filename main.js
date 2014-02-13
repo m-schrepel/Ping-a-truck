@@ -81,7 +81,6 @@ function initialize() {
     var truckDistanceCheck = function() {      
       for (var i = 0; i < people.length; i++) {
         var distanceBetween = google.maps.geometry.spherical.computeDistanceBetween(truckArray[0].where, people[i].where);
-        console.log(distanceBetween);
         if (distanceBetween < 1000) {
           var notifyLoop = new Notify (people[i].randName, truckArray[0].truckName);
           notifyArray.push(notifyLoop);
