@@ -92,5 +92,12 @@ html {
 			font-size: 1em;
 			line-height: 5.5em;
 		}
-	
+		#map-canvas {
+			width: 80%;
+			margin: auto;
+		}
+		#slider-el {
+			width: 80%;
+			margin: auto;
+		}
 }
