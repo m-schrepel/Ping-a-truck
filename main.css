@@ -91,13 +91,14 @@ html {
 		#site-name-nav {
 			font-size: 1em;
 			line-height: 5.5em;
+			padding-left: 5px;
 		}
 		#map-canvas {
-			width: 80%;
+			width: 85%;
 			margin: auto;
 		}
 		#slider-el {
-			width: 80%;
+			width: 85%;
 			margin: auto;
 		}
 }
